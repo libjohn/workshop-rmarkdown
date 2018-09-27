@@ -23,3 +23,29 @@ install.packages("blogdown")
 # then, library(blogdown)
 ```
 
+## Get Started
+
+1. Open A New RStudio Project
+1. Choose "New Directory"
+1. Choose "Website using blogdown"
+1. Choose a directory name and click `Create Project`
+
+
+![](images/blogdown_00_newproject.png)
+
+&nbsp;
+
+![](images/blogdown_new-directory.png)
+
+&nbsp;
+
+![](images/blogdown_03_website.png)
+
+&nbsp;
+
+![](images/blogdown_07_newblog_name.png)
+
+Read more
+
+- https://bookdown.org/yihui/blogdown/a-quick-example.html
+- 
