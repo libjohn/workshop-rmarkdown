@@ -1,27 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R Markdown</title>
+    <meta charset="utf-8">
+    <meta name="author" content="John Little" />
+    <meta name="date" content="2018-09-27" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/duke-blue.css" rel="stylesheet" />
+    <link href="libs/remark-css/hygge-duke.css" rel="stylesheet" />
+    <link rel="stylesheet" href="libs\cc-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="libs\figure-captions.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# R Markdown
+## Rfun - An R Learning Series
+### John Little
+### 2018-09-27
+
 ---
-title: "R Markdown"
-subtitle: "Rfun - An R Learning Series"
-author: "John Little"
-date: "`r Sys.Date()`"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    css: 
-      - default
-      - default-fonts
-      - duke-blue
-      - hygge-duke
-      - libs/cc-fonts.css
-      - libs/figure-captions.css
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
----
+
 exclude: TRUE
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+
 
 ---
 class: bottom, center
@@ -29,10 +32,10 @@ background-image: url(images/Rfun1.png)
 
 [Rfun](https://rfun.library.duke.edu): An R Learning Event
 
-.scriptsize[Part of the]<br>
-[Data & Visualization Services Workshop Series](https://library.duke.edu/data/workshops)
+.scriptsize[Part of the]&lt;br&gt;
+[Data &amp; Visualization Services Workshop Series](https://library.duke.edu/data/workshops)
 
-&nbsp;
+&amp;nbsp;
 
 ---
 ## Simplified Markup Language
@@ -55,7 +58,7 @@ background-image: url(images/Rfun1.png)
 - .yellow[Slides] .scriptsize[(PowerPoint, **xaringan**, reveal, Beamer, Slidy, idoslides...)]
 - .yellow[Interactive Documents] .scriptsize[(HTML Widgets)]
 - .yellow[R Notebooks]
-- .yellow[Web Sites] .scriptsize[(**blogdown** & WebSites]
+- .yellow[Web Sites] .scriptsize[(**blogdown** &amp; WebSites]
 - .yellow[Dashboards]
 - .yellow[MS Word Documents]
 - .yellow[E-books] .scriptsize[(bookdown, ePUB, Kindle)]
@@ -160,9 +163,9 @@ class: middle, center
 
 ### Integration of R code chunks
 
-### Easy to read & write
+### Easy to read &amp; write
 
-### Plain text is more [sustainable](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)<sup>1</sup> over time
+### Plain text is more [sustainable](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)&lt;sup&gt;1&lt;/sup&gt; over time
 
 ### Multiple ouput formats
 
@@ -179,7 +182,7 @@ class: middle, center
     - links
     - images
     - ordered and unordered lists
-    - footnote<sup>\*\*</sup>  
+    - footnote&lt;sup&gt;\*\*&lt;/sup&gt;  
     - tables
     - blockquotes
     
@@ -204,7 +207,7 @@ My text to note^[my footnote]
 
     - code chunks
     - inline code
-    - LaTex Equations $\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$
+    - LaTex Equations `\(\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i\)`
     - chunk options
 
 ---
@@ -219,7 +222,7 @@ My text to note^[my footnote]
 ---
 # John Little
 
-&nbsp;
+&amp;nbsp;
 
 .pull-left[.full-width[.content-box-green[
 ### Data Science Librarian
@@ -236,13 +239,13 @@ You can make **Rfun** with our resources for R and data science analytics.  See 
 .pull-right[.content-box-grey[
 ### Duke University
 
-**Data & Visualization Services**
+**Data &amp; Visualization Services**
 
 - https://library.duke.edu/data/
 - askData@Duke.edu
 - The /Edge, Bostock (1st Floor)
 - [Past Workshops](https://library.duke.edu/data/news/past-workshops)
-- [Guides & Tutorials](https://library.duke.edu/data/tutorials)
+- [Guides &amp; Tutorials](https://library.duke.edu/data/tutorials)
 
 ]]
 
@@ -255,12 +258,58 @@ class: center, middle
 
 Data, presentation, and handouts 
 
-<span class="cc">
-<!-- Key: a: SA, b: BY, c: CC Circle, d: ND, n: NC, m: Sampling, s: Share, r: Remix, C: CC Full Logo -->
+&lt;span class="cc"&gt;
+&lt;!-- Key: a: SA, b: BY, c: CC Circle, d: ND, n: NC, m: Sampling, s: Share, r: Remix, C: CC Full Logo --&gt;
 C bn
-</span>
+&lt;/span&gt;
 
 
 [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
