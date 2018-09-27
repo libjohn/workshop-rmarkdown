@@ -174,50 +174,51 @@ class: middle, center
 ]
 
 ---
-## Excercises
-
-1. R Markdown prose
-
-    - bold, italics
-    - links
-    - images
-    - ordered and unordered lists
-    - footnote&lt;sup&gt;\*\*&lt;/sup&gt;  
-    - tables
-    - blockquotes
-    
-.footnote[
-
-.footnotesize[
-
-\*\* The most convenient R Markdown solution for footnoting works very well (see below).  However, for Xaringan slides use an alternative documented method.  Sadly, Markdown has many flavors and the footnoting approaches may work differently for other Markdown flavors.
-
-```
-My text to note^[my footnote]
-```
-
+.content-box-red[
+### Excercise 1
+In RStudio, Open an R Notebook (`File &gt; R Notebook`) and practice marking up your prose with at least three of the markdown elements below
 ]
 
+Style | Markdown Syntax
+--- | ---
+bold | `**bold**`
+italics | `*italics*`
+images |  `![alt text](path/to/image)`
+web links | ` [Google](http://google.com)`
+ordered and unordered lists | cheetsheet - http://is.gd/rmarkdown
+tables | cheetsheet - http://is.gd/rmarkdown
+blockquotes | cheetsheet - http://is.gd/rmarkdown
+footnote | `My text to note^[my footnote]`
+
+---
+.content-box-red[
+### Excercise 2
+#### Literate Code:  R Markdown with R code chunks
+In the same R Notebook add at least one of the markdown elements below
 ]
 
+Element / Documentation | Note
+--- | ---
+[Code Chunks](https://rmarkdown.rstudio.com/lesson-3.html) |  **Ctrl + Alt + I** (OS X: Cmd + Option + I)
+[Inline Code](https://rmarkdown.rstudio.com/lesson-4.html) | Insert code into prose with `` `r `` `` count(x)` ``
+[LaTex Equations]((https://bookdown.org/yihui/rmarkdown/markdown-syntax.html#math-expressions) | bind LaTex within \$ &lt;br&gt;i.e. `$` equation `$`&lt;br&gt; e.g. `$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$`
+[Chunk Options](https://bookdown.org/yihui/rmarkdown/r-code.html) | There are a lot of options. Try setting image size within the code chunk settings. ![](images/code_chunk_options.png)
+[YAML](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html#identify) | Metadata and output options
+
+
 ---
-### Exercises
+.content-box-red[
+### Exercise 3
 
-2. Literate Code:  R Markdown with R code chunks
+Choose an output format below and "get started" learning a new R Markdown output option
+]
 
-    - code chunks
-    - inline code
-    - LaTex Equations `\(\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i\)`
-    - chunk options
-
----
-### Exercises
-
-1. Slides:  DukeSlides (A Xaringan implementation)
+1. Slides:  [DukeSlides](https://www.johnlittle.info/dukeslides/) (A [xaringan](https://slides.yihui.name/xaringan/#1) implementation)
 1. MS Word:  (using knitr::kable for tables)
-1. Book:  Bookdown
-1. Dashboard:  Flex Dashboards
-1. Website:  Blogdown
+1. Book:  [Bookdown](https://bookdown.org/yihui/bookdown/)
+1. Dashboard:  [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/)
+1. Website:  [Blogdown](https://bookdown.org/yihui/blogdown/)
+
 
 ---
 # John Little
