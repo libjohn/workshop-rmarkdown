@@ -1,2 +1,2 @@
 # workshop-rmarkdown
-Supporting documentation and materials for DVS's R Markdown workshop
+supporting documentation and materials for DVS R Markdown workshop
