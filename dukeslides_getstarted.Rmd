@@ -1,0 +1,44 @@
+---
+title: "Instructions for Duke Slides"
+output: html_notebook
+---
+
+## Load Packages
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+
+Are Duke Slides loaded?
+
+```{r}
+library(dukeslides)
+```
+
+If not, follow the installation instructions
+
+``` r
+# install.packages("devtools")
+devtools::install_github("libjohn/dukeslides"
+```
+
+## Get Started
+Create a new R Markdown document from the File menu
+
+In RStudio…
+
+1. `New File -> R Markdown -> From Template -> Slide template for Duke University {dukeslides}`
+1. Click the `Knit` button to compile the slide into rendered HTML
+
+Knitting will generate a slide deck with doubles as both a demonstration and documentation.
+
+Edit to your hearts delight.  You can mess it up because if you re-execute step one, above, you'll have a new set of demonstration/instructions
+
+
+## More Documentation
+
+- [dukeslides](http://www.johnlittle.info/dukeslides/)
+- [xaringan](https://slides.yihui.name/xaringan/)
+
+

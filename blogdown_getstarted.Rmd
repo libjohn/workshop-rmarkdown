@@ -1,0 +1,25 @@
+---
+title: "Instructions for Blogdown"
+output: html_notebook
+---
+
+## Load Packages
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+
+Is Blogdown Loaded?
+
+```{r}
+library(blogdown)
+```
+
+If not, follow the installation instructions
+
+``` r
+install.packages("blogdown")
+# then, library(blogdown)
+```
+
