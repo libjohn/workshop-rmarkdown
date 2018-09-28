@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Get Started
 
-Create a new R Markdown document from the File Maneu
+Create a new R Markdown document from the File Menu
 
 In RStudio...
 
@@ -24,7 +24,7 @@ In RStudio...
 
 
 
-The challenge with generate MS Word files is to generate your tables with `kintr::kable`.  There's also a kableExtra package if you need more functionality with editing your tables.
+The challenge with MS Word files is generating your tables with `kintr::kable`.  There's also a kableExtra package if you need more functionality with editing your tables.
 
 ```{r}
 knitr::kable(head(cars))
