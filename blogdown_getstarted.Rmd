@@ -1,6 +1,6 @@
 ---
 title: "Instructions for Blogdown"
-output: html_notebook
+output: html_document
 ---
 
 ## Load Packages

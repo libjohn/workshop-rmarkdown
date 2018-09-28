@@ -1,6 +1,6 @@
 ---
 title: "Instructions for Duke Slides"
-output: html_notebook
+output: html_document
 ---
 
 ## Load Packages
