@@ -1,6 +1,0 @@
----
-title: "bookdown -- get started"
-output: html_notebook
----
-
-https://bookdown.org/yihui/bookdown/get-started.html
