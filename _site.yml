@@ -1,12 +1,29 @@
-name: "R Markdown"
+name: R Markdown
 output_dir: docs
-exclude: ["README.md", "license.md", "intro2R.Rmd", "*.html", "*.pdf", "*.docx"]
+exclude: ["README.md", "license.md", "*.html", "*.pdf", "*.docx"]
 navbar:
-  title: "Intro"
+  title: "R Markdown"
+  left:
+    - text: "Cheatsheet"
+      href:  slides/index.html#5
+    - text: "R Notebooks AG"
+      href: notebooks.html
+    - text: "Slide Decks"
+      href: dukeslides_getstarted.html
+    - text: "MS Word"
+      href: msword_getstarted.html
+    - text: "Dashboards AG"
+      href: dashboards.html
+    - text: "Web Sites"
+      href: blogdown_getstarted.html
+    - text: "PDF"
+      href: pdf_getstarted.html
+    - book: "Book"
+      href: https://bookdown.org/yihui/bookdown/get-started.html
   right:
     - icon: fa-github
 #    - text: "GitHub"
-      href: https://github.com/data-and-visualization/Intro2R          
+      href: https://github.com/libjohn/workshop-rmarkdown          
 output:
   html_document:
     theme: flatly

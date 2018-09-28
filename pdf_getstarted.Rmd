@@ -1,6 +1,8 @@
 ---
-title: "Getting Started with PDF Document"
-output: pdf_document
+title: "PDF Document via R Markdown"
+output: 
+  html_document:
+    toc: FALSE
 ---
 
 ```{r setup, include=FALSE}
@@ -16,10 +18,16 @@ In RStudio...
 
 1. `New File -> R Markdown -> Document ->PDF`
 1. Generate some Literate Code
-1. Knit (Knit to Word)
+1. Knit (Knit to PDF)
+
+![](images/pdf_05_newdoc.png "new PDF from R Markdown")
 
 
-```{r echo=FALSE, out.width='100%'} 
+&nbsp;
+
+When implenting images inline, I found the following code works well for PDF documents via R Markdown:
+
+``` r 
 knitr::include_graphics("images/pdf_05_newdoc.png") 
 ``` 
 
@@ -41,8 +49,7 @@ knitr::kable(summary(cars))
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure}
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

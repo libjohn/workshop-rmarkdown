@@ -32,10 +32,12 @@ In RStudio…
 1. From Template -> Slide template for Duke University {dukeslides}` > OK
 
 
-![new R Markdown File](images/slides_03.png)
+![new R Markdown File](images/slides_03.png  "New R Markdown File")
 &nbsp;
 
-![From Template](images/slides_05.png)
+&nbsp;
+
+![From Template](images/slides_05.png "Dukeslides from Template")
 
 This will generate a plaintext .Rmd file in the script editor showing each slide separated by `---`.  You must keep the YAML header but you can edit the values in the header.  
 

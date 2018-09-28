@@ -1,8 +1,8 @@
 ---
-title: "Test MS Word File"
-author: "john little"
-date: "September 27, 2018"
-output: word_document
+title: "MS Word File via R markdown"
+output: 
+  html_document:
+    toc: FALSE
 ---
 
 ```{r setup, include=FALSE}
@@ -15,8 +15,10 @@ Create a new R Markdown document from the File Menu
 
 In RStudio...
 
-![](images/ms_word.png)
+![](images/ms_word.png "new word file from R Markdown")
 
+
+&nbsp;
 
 1. `New File -> R Markdown -> Document ->Word`
 1. Generate some Literate Code
@@ -28,5 +30,14 @@ The challenge with MS Word files is generating your tables with `kintr::kable`. 
 
 ```{r}
 knitr::kable(head(cars))
+```
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure}
+plot(pressure)
 ```
 
