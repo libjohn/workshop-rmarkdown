@@ -1,0 +1,22 @@
+---
+title: "FlexDashboard"
+output: 
+  html_document:
+    toc: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. `File > New File > R Markdown... > From Template > Dashboards`
+
+![](images/new_dashboard.gif "New flexdashboard")
+
+
+&nbsp;
+
+## Learn More
+
+[flexdashboards](https://rmarkdown.rstudio.com/flexdashboard/) 
+

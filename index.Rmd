@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp;
 
-Introduction to R Markdown: &nbsp; [slide deck](slides/)
+[Introduction to R Markdown](slides/) (slides)
 
 ## R Markdown quick start
 
@@ -21,10 +21,10 @@ Introduction to R Markdown: &nbsp; [slide deck](slides/)
 ## Exercises
 Output Type | Instructions | Resources
 -------- | ---------- | --------------------------------------
-**Slide** Deck | [Get Started](dukeslides_getstarted.html) | [DukeSlides](https://www.johnlittle.info/dukeslides/) (A [xaringan](https://slides.yihui.name/xaringan/#1) implementation)
+**Slide** Decks | [Get Started](dukeslides_getstarted.html) | [DukeSlides](https://www.johnlittle.info/dukeslides/) (A [xaringan](https://slides.yihui.name/xaringan/#1) implementation)
 MS Word | [Get Started](msword_getstarted.html) | Use `knitr::kable(df)` for [dataframe](https://bookdown.org/yihui/rmarkdown/html-document.html#data-frame-printing) printing
-Dashboard | [Get Started](https://rmarkdown.rstudio.com/flexdashboard/) | [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/)
-Website | [Get Started](blogdown_getstarted.html) | [Blogdown](https://bookdown.org/yihui/blogdown/)
+Dashboards | [Get Started](https://rmarkdown.rstudio.com/flexdashboard/) | [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/)
+Websites | [Get Started](blogdown_getstarted.html) | [Blogdown](https://bookdown.org/yihui/blogdown/)
 PDF | [Get Started](pdf_getstarted.html) | May need to install https://yihui.name/tinytex/<br> `install.packages('tinytex')` <br> `tinytex::install_tinytex()`
 Book | [Get Started](https://bookdown.org/yihui/bookdown/get-started.html) | [Bookdown](https://bookdown.org/yihui/bookdown/)<br>May need to install https://yihui.name/tinytex/<br> `install.packages('tinytex')` <br> `tinytex::install_tinytex()`
 

@@ -13,7 +13,7 @@ Get Started
 
 Create a new R Markdown document from the File Menu
 
-In RStudio...
+1. `File > New File > R Markdown... > Document > Word`
 
 ![](images/ms_word.png "new word file from R Markdown")
 
