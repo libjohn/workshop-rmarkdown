@@ -221,13 +221,16 @@ Element / Documentation | Note
 [YAML](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html#identify) | Metadata and output options
 
 
+&nbsp;
 
 
+&nbsp;
 
 
+&nbsp;
 
 
-
+&nbsp;
 
 
 
