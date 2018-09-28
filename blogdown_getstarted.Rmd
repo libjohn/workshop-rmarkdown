@@ -31,21 +31,33 @@ install.packages("blogdown")
 1. Choose a directory name and click `Create Project`
 
 
-![](images/blogdown_00_newproject.png)
+![](images/blogdown_00_newproject.png "New RStudio Project")
 
 &nbsp;
 
-![](images/blogdown_new-directory.png)
+![](images/blogdown_new-directory.png "Create Project in New Directory")
 
 &nbsp;
 
-![](images/blogdown_03_website.png)
+![](images/blogdown_03_website.png "Project Type = Website...")
 
 &nbsp;
 
-![](images/blogdown_07_newblog_name.png)
+![](images/blogdown_07_newblog_name.png "Name the Directory of your website")
 
-Read more
+
+## Now Build and Serve the site
+
+The site will show up in the Viewer tab.  See the R console for notes on the URL.
+
+![](images/blogdown_09_serve_site.png "serve blogdown site")
+
+
+## Add a new blog post to your site
+
+![](images/blogdown_11_new-post.png "new post")
+
+
+## Read more
 
 - https://bookdown.org/yihui/blogdown/a-quick-example.html
-- 
