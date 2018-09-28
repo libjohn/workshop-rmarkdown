@@ -28,12 +28,20 @@ Create a new R Markdown document from the File menu
 
 In RStudio…
 
-1. `New File -> R Markdown -> From Template -> Slide template for Duke University {dukeslides}`
-1. Click the `Knit` button to compile the slide into rendered HTML
+1. `New File -> R Markdown
+1. From Template -> Slide template for Duke University {dukeslides}` > OK
 
-Knitting will generate a slide deck with doubles as both a demonstration and documentation.
 
-Edit to your hearts delight.  You can mess it up because if you re-execute step one, above, you'll have a new set of demonstration/instructions
+![new R Markdown File](images/slides_03.png)
+&nbsp;
+
+![From Template](images/slides_05.png)
+
+This will generate a plaintext .Rmd file in the script editor showing each slide separated by `---`.  You must keep the YAML header but you can edit the values in the header.  
+
+Using plain text and R Markdown you can customize the slide template.  Importantly, this template doubles as both a demonstration and documentation.  **Knitting the file will generate slide output as an HTML file** (with supporting files) showing the rendered ouput as a demonstration and documentation.
+
+Edit to your hearts delight.  You cannot mess up the template.  Simply re-execute step one, above, you'll have a new .Rmd file with the demonstration/instructions.
 
 
 ## More Documentation
