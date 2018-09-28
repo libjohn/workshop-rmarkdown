@@ -1,0 +1,48 @@
+---
+title: "Getting Started with PDF Document"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Get Started
+
+Create a new R Markdown document from the File Menu
+
+In RStudio...
+
+
+1. `New File -> R Markdown -> Document ->PDF`
+1. Generate some Literate Code
+1. Knit (Knit to Word)
+
+
+```{r echo=FALSE, out.width='100%'} 
+knitr::include_graphics("images/pdf_05_newdoc.png") 
+``` 
+
+
+The challenge with PDF files is generating your tables with `kintr::kable`.  There's also a kableExtra package if you need more functionality with editing your tables.
+
+
+
+
+```{r}
+knitr::kable(head(cars))
+```
+
+```{r cars}
+knitr::kable(summary(cars))
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
