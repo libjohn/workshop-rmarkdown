@@ -4,7 +4,7 @@
     <title>R Markdown</title>
     <meta charset="utf-8">
     <meta name="author" content="John Little" />
-    <meta name="date" content="2018-09-27" />
+    <meta name="date" content="2018-09-28" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
     <link href="libs/remark-css/duke-blue.css" rel="stylesheet" />
@@ -19,7 +19,7 @@ class: center, middle, inverse, title-slide
 # R Markdown
 ## Rfun - An R Learning Series
 ### John Little
-### 2018-09-27
+### 2018-09-28
 
 ---
 
@@ -142,6 +142,24 @@ Numbered list:
 ]]
 
 ---
+## YAML Header
+
+The YAML metadata affects the output of the rendered output.  
+
+``` yaml
+---
+title: "R Notebook"
+subtitle: "Levering systemic power and smiling about it"
+author: "Wendy Byrde"
+date: "2018-09-28"
+abstract: "&lt;i&gt;Summary of my document.&lt;/i&gt;&lt;p&gt;"
+output: html_notebook
+---
+```
+
+
+
+---
 ## Resources
 
 - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) book
@@ -199,9 +217,9 @@ In the same R Notebook add at least one of the markdown elements below
 
 Element / Documentation | Note
 --- | ---
-[Code Chunks](https://rmarkdown.rstudio.com/lesson-3.html) |  **Ctrl + Alt + I** (OS X: Cmd + Option + I)
-[Inline Code](https://rmarkdown.rstudio.com/lesson-4.html) | Insert code into prose with `` `r `` `` count(x)` ``
-[LaTex Equations]((https://bookdown.org/yihui/rmarkdown/markdown-syntax.html#math-expressions) | bind LaTex within \$ &lt;br&gt;i.e. `$` equation `$`&lt;br&gt; e.g. `$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$`
+[Code Chunks](https://rmarkdown.rstudio.com/lesson-3.html) |  **Ctrl + Alt + I** (OS X: Cmd + Option + I)&lt;br&gt;e.g. `plot(cars)`
+[Inline Code](https://rmarkdown.rstudio.com/lesson-4.html) | Insert code into prose: &lt;br&gt;e.g. \``r`  `length(cars$speed)`\`
+[LaTex Equations](https://bookdown.org/yihui/rmarkdown/markdown-syntax.html#math-expressions) | bind LaTex within `$` &lt;br&gt;i.e. `$` equation `$`&lt;br&gt; e.g. `$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$`
 [Chunk Options](https://bookdown.org/yihui/rmarkdown/r-code.html) | There are a lot of options. Try setting image size within the code chunk settings. ![](images/code_chunk_options.png)
 [YAML](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html#identify) | Metadata and output options
 
@@ -213,11 +231,13 @@ Element / Documentation | Note
 Choose an output format below and "get started" learning a new R Markdown output option
 ]
 
-1. Slides:  [DukeSlides](https://www.johnlittle.info/dukeslides/) (A [xaringan](https://slides.yihui.name/xaringan/#1) implementation)
-1. MS Word:  (using knitr::kable for tables)
-1. Book:  [Bookdown](https://bookdown.org/yihui/bookdown/)
-1. Dashboard:  [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/)
-1. Website:  [Blogdown](https://bookdown.org/yihui/blogdown/)
+Output Style | Instructions | Resources
+--- | --- | ---
+**Slide** Deck | [Get Started](../dukeslides_getstarted.nb.html) | [DukeSlides](https://www.johnlittle.info/dukeslides/) (A [xaringan](https://slides.yihui.name/xaringan/#1) implementation)
+MS Word | [Get Started](../msword_getstarted.docx) | Use knitr::kable(df) for [dataframe](https://bookdown.org/yihui/rmarkdown/html-document.html#data-frame-printing) printing
+Book | [Get Started](../bookdown_getstarted.nb.html) | [Bookdown](https://bookdown.org/yihui/bookdown/)
+Dashboard | [Get Started](https://rmarkdown.rstudio.com/flexdashboard/) | [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/)
+Website | [Get Started](../blogdown_getstarted.nb.html) | [Blogdown](https://bookdown.org/yihui/blogdown/)
 
 
 ---
