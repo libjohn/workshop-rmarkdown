@@ -25,7 +25,7 @@ Output Type | Instructions | Resources
 MS Word | [Get Started](msword_getstarted.html) | Use `knitr::kable(df)` for [dataframe](https://bookdown.org/yihui/rmarkdown/html-document.html#data-frame-printing) printing
 Dashboard | [Get Started](https://rmarkdown.rstudio.com/flexdashboard/) | [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/)
 Website | [Get Started](blogdown_getstarted.html) | [Blogdown](https://bookdown.org/yihui/blogdown/)
-PDF | [Get Started](pdf_getstarted.html) | <br>May need to install https://yihui.name/tinytex/<br> `install.packages('tinytex')` <br> `tinytex::install_tinytex()`
+PDF | [Get Started](pdf_getstarted.html) | May need to install https://yihui.name/tinytex/<br> `install.packages('tinytex')` <br> `tinytex::install_tinytex()`
 Book | [Get Started](https://bookdown.org/yihui/bookdown/get-started.html) | [Bookdown](https://bookdown.org/yihui/bookdown/)<br>May need to install https://yihui.name/tinytex/<br> `install.packages('tinytex')` <br> `tinytex::install_tinytex()`
 
 ## Learn More
