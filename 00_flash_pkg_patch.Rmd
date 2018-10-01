@@ -4,7 +4,7 @@ date: "2018:  Aug 30"
 ---
 
 ```{r}
-install.packages(c("curl", "skimr", "httpuv" ,"later", "promise s", "mime"))
+install.packages(c("curl", "skimr", "httpuv" ,"later", "promises", "mime"))
 ```
 
 
