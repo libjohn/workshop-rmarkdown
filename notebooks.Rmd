@@ -15,7 +15,7 @@ Use R Notebooks for development.  Notebooks are self contained and can be emaile
 
 1. `File > New File > R Notebook`
 1. Edit your R Markdown file
-1. Click the "Preview" buton in the script editor to render the document
+1. Click the "Preview" button in the script editor to render the document
 
 ![](images/new_R_notebook_05.png "New R Notebook")
 
@@ -28,7 +28,7 @@ Use HTML documents for more fixed content.  HTML Documents will cache better and
 
 1. `File > New File > R Markdown... > Document > HTML`
 1. Edit your R Markdown file
-1. Click the "Knit" buton in the script editor to render the document
+1. Click the "Knit" button in the script editor to render the document
 
 ![](images/new_notebook_html-doc.gif "New html_document")
 

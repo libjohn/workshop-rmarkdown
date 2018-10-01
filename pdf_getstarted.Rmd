@@ -25,9 +25,9 @@ In RStudio...
 
 &nbsp;
 
-When implenting images inline, I found the following code works well for PDF documents via R Markdown:
+When inserting inline images, I find the following code works well for PDF documents via R Markdown:
 
-``` r 
+```{r fig.width=2}
 knitr::include_graphics("images/pdf_05_newdoc.png") 
 ``` 
 

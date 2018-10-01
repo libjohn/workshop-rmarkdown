@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1. `File > New File > R Markdown... > From Template > Dashboards`
 1. Edit your R Markdown file
-1. Click the "Knit" buton in the script editor to render the document
+1. Click the "Knit" button in the script editor to render the document
 
 ![](images/new_dashboard.gif "New flexdashboard")
 
