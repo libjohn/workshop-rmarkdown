@@ -1,0 +1,11 @@
+---
+title: "flash patch - 023 training lab - R"
+date: "2018:  Aug 30"
+---
+
+```{r}
+install.packages(c("curl", "skimr", "httpuv" ,"later", "promise s", "mime"))
+```
+
+
+Something went wrong with the Lab upgrade.  This will install needed pacakages
