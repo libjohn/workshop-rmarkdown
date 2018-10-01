@@ -20,5 +20,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Learn More
 
-[flexdashboards](https://rmarkdown.rstudio.com/flexdashboard/) 
+Dashboard basics are discussed on the [flexdashboards](https://rmarkdown.rstudio.com/flexdashboard/) homepage.  For the workshop, I recommend experimenting with the  basic layout.  Later, explore [other layouts](https://rmarkdown.rstudio.com/flexdashboard/layouts.html) with new dashboards. 
+
+then add ...  
+
+- A code chunk demonstrating simple literate code (e.g. `plot(cars`)
+- Inline code suing back-ticks and prose.  (e.g. `r` `length(cars$speed)`)
+- Some [value boxes](https://rmarkdown.rstudio.com/flexdashboard/using.html#value_boxes) or [gauges](https://rmarkdown.rstudio.com/flexdashboard/using.html#value_boxes)
+
+
+
 
