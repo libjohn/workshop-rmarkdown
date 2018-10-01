@@ -20,7 +20,7 @@ If not, follow the installation instructions
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("libjohn/dukeslides"
+devtools::install_github("libjohn/dukeslides")
 ```
 
 ## Get Started
@@ -30,6 +30,8 @@ In RStudio…
 
 1. `New File -> R Markdown
 1. From Template -> Slide template for Duke University {dukeslides}` > OK
+1. Edit your R Markdown file
+1. Click the "Knit" buton in the script editor to render the document
 
 ![](images/new_slide_deck.gif "New slide deck")
 

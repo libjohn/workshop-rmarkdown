@@ -14,6 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 Use R Notebooks for development.  Notebooks are self contained and can be emailed as a single document, like a MS Word file.
 
 1. `File > New File > R Notebook`
+1. Edit your R Markdown file
+1. Click the "Preview" buton in the script editor to render the document
 
 ![](images/new_R_notebook_05.png "New R Notebook")
 
@@ -25,6 +27,8 @@ Use R Notebooks for development.  Notebooks are self contained and can be emaile
 Use HTML documents for more fixed content.  HTML Documents will cache better and potentially load faster.
 
 1. `File > New File > R Markdown... > Document > HTML`
+1. Edit your R Markdown file
+1. Click the "Knit" buton in the script editor to render the document
 
 ![](images/new_notebook_html-doc.gif "New html_document")
 
