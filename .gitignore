@@ -22,7 +22,8 @@ vignettes/*.html
 vignettes/*.pdf
 
 # Documentation
-/docs/
+# /docs/ # removed because this is the 
+# directory continuously deployed by netlify.com
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
