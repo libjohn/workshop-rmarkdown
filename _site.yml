@@ -23,7 +23,11 @@ navbar:
   right:
     - icon: fa-github
 #    - text: "GitHub"
-      href: https://github.com/libjohn/workshop-rmarkdown          
+      href: https://github.com/libjohn/workshop-rmarkdown
+    - text: "Rfun Home"
+      href: "https://rfun.library.duke.edu/"
+    - text: "DVS"
+      href: https://library.duke.edu/data/      
 output:
   html_document:
     theme: flatly
