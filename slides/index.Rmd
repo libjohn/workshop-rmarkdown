@@ -75,7 +75,7 @@ class: bottom
 background-image: url(images/rmarkdown.png)
 
 .footer-note[.tiny[.green[
-  Image Credit: [RStudio](http://rmarkdown.rstudio.com/)
+  Image Credit: [RStudio](https://rmarkdown.rstudio.com/)
 ]]]
 
 ---
@@ -93,7 +93,7 @@ class: middle
 Text attributes 
  *italic*, **bold**, `monospace`.
 
-A [link](http://example.com).
+A [link](https://example.com).
 
 Bullet list:
 - apples  
@@ -116,7 +116,7 @@ Numbered list:
 
 *italicized*, **bold**, `monospace`
 
-A [link](http://google.com)
+A [link](https://google.com)
 
 Bullet list:
 - applies
@@ -199,10 +199,10 @@ Style | Markdown Syntax
 bold | `**bold**`
 italics | `*italics*`
 images |  `![alt text](path/to/image)`
-web links | ` [Google](http://google.com)`
-ordered and unordered lists | cheetsheet - http://is.gd/rmarkdown
-tables | cheetsheet - http://is.gd/rmarkdown
-blockquotes | cheetsheet - http://is.gd/rmarkdown
+web links | ` [Google](https://google.com)`
+ordered and unordered lists | cheetsheet - https://is.gd/rmarkdown
+tables | cheetsheet - https://is.gd/rmarkdown
+blockquotes | cheetsheet - https://is.gd/rmarkdown
 footnote | `My text to note^[my footnote]`
 
 ---

@@ -45,7 +45,7 @@ Edit to your hearts delight.  You cannot mess up the template.  Simply re-execut
 
 ## More Documentation
 
-- [dukeslides](http://www.johnlittle.info/dukeslides/)
+- [dukeslides](https://www.johnlittle.info/dukeslides/)
 - [xaringan](https://slides.yihui.name/xaringan/)
 
 
